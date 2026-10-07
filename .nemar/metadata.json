@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Felix Siebenhühner": {
+      "orcid": "0000-0002-2621-9145",
+      "affiliations": [
+        {
+          "name": "University of Helsinki",
+          "identifier": "https://ror.org/040af2s02",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Sheng H Wang": {},
+    "Gabriele Arnulfo": {
+      "orcid": "0000-0002-1140-0320"
+    },
+    "Lino Nobili": {
+      "orcid": "0000-0001-9317-5405"
+    },
+    "J Matias Palva": {
+      "orcid": "0000-0003-1885-2749"
+    },
+    "Satu Palva": {
+      "orcid": "0000-0001-9496-7391"
+    },
+    "Anna Lampinen": {
+      "orcid": "0000-0002-1272-7747"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.0k86k80",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1371/journal.pbio.3000685",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000389",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000389",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Academy of Finland",
+      "award_number": "SA 266402"
+    },
+    {
+      "funder_name": "Academy of Finland",
+      "award_number": "303933"
+    },
+    {
+      "funder_name": "Academy of Finland",
+      "award_number": "SA 325404"
+    },
+    {
+      "funder_name": "Academy of Finland",
+      "award_number": "SA 253130"
+    },
+    {
+      "funder_name": "Academy of Finland",
+      "award_number": "296304"
+    },
+    {
+      "funder_name": "Sigrid Juselius Foundation"
+    }
+  ],
+  "title": "Genuine cross-frequency coupling networks in human resting-state electrophysiological recordings (Siebenhuehner et al., 2020): SEEG and MEG connectomes (derivative)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg",
+    "ieeg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "13.06 GB (509 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".docx",
+    ".json",
+    ".md",
+    ".py",
+    ".tsv",
+    ".zip"
+  ],
+  "description": "A derivative repackaging of the public Dryad release accompanying Siebenhühner et al. (2020). It provides per-subject connectivity matrices computed from 10-minute resting-state SEEG (59 epilepsy patients) and MEG (19 healthy participants, plus a 10-participant eyes-open/eyes-closed cohort). Measures include phase synchrony (PLV, wPLI), cross-frequency phase synchrony, phase-amplitude coupling and amplitude-envelope coupling, each with surrogate values. Supporting parcel and contact files, neuropsychological scores and the plotted values of the article's figures are also included. Raw recordings are not available.",
+  "methods_description": "SEEG was recorded for 10 min eyes-closed at 1000 Hz (192 channels) in 59 patients with drug-resistant focal epilepsy. Contacts were localized with CT and assigned to the 148-parcel Destrieux atlas, and closest-white-matter referencing was applied. MEG was recorded for 10 min eyes-open with a 306-channel Elekta/MEGIN system, processed with tSSS and ICA, and source-modelled with MNE onto 200 parcels with fidelity weighting. Morlet wavelet filter banks (m=5, up to 315 Hz) were used to compute synchrony and coupling matrices with surrogate values.",
+  "keywords": [
+    {
+      "term": "Stereo-EEG"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "cross-frequency coupling"
+    },
+    {
+      "term": "phase-amplitude coupling"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "connectome"
+    }
+  ],
+  "source_hash": "dd20c67feb05ebb014d73277fd95f7bd50a113aa53cc8f2e346f2272101fd48c"
+}

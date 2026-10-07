@@ -2,3 +2,4 @@
 *.csv
 group
 sub-*/*/*.json
+.nemar/

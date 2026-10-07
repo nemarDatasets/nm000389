@@ -1,0 +1,32 @@
+{
+  "MeasurementToolMetadata": {
+    "Description": "Neuropsychological test scores of the 19 participants of the main MEG cohort, copied unchanged from Neuropsychological_Data.csv of the Dryad release. Authors' README: 'A value of -1 indicates that a subject did not perform a test.'"
+  },
+  "participant_id": {
+    "Description": "MEG participant (sub-megNNNN = release code SNNNN)."
+  },
+  "forward_digits": {
+    "Description": "Digit span forward (release column 'ForwDigits'). -1 = test not performed."
+  },
+  "backward_digits": {
+    "Description": "Digit span backward (release column 'BackDigits'). -1 = test not performed."
+  },
+  "letter_number_sequencing": {
+    "Description": "Letter-number sequencing (release column 'LNS'). -1 = test not performed."
+  },
+  "digit_symbol_coding": {
+    "Description": "Digit symbol coding test (release column 'Digit symbol coding_test'). -1 = test not performed."
+  },
+  "tmt_a": {
+    "Description": "Trail-Making Test A (release column 'TMT-A'). -1 = test not performed."
+  },
+  "tmt_b": {
+    "Description": "Trail-Making Test B (release column 'TMT-B'). -1 = test not performed."
+  },
+  "zoo_map_plan": {
+    "Description": "Zoo Map test, planning (release column 'Zoo map_plan'). -1 = test not performed."
+  },
+  "zoo_map_time": {
+    "Description": "Zoo Map test, time (release column 'Zoo map_time'). -1 = test not performed."
+  }
+}

@@ -1,0 +1,4 @@
+*.zip
+*.csv
+group
+sub-*/*/*.json

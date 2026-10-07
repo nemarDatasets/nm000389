@@ -1,0 +1,8 @@
+{
+  "Description": "Grey Matter Proximity Index for each contact (article Methods).",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_SEEG.zip::GMPI/S025.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

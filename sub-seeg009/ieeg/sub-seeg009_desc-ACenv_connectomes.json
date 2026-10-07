@@ -1,0 +1,9 @@
+{
+  "Description": "amplitude-envelope coupling connectomes of this subject: one semicolon-separated CSV matrix per frequency (PS) or low:high frequency pair (CFC), each with a _surr.csv surrogate counterpart. CFC: rows = low-frequency contact, columns = high-frequency contact, local CFC on the diagonal.",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/SEEG_connectome_AC_ENV.zip"
+  ],
+  "SourceMembersPrefix": "S009",
+  "Repackaging": "Members of the original zip whose name carries this subject code, copied with identical names, timestamps and bytes into a new zip (exact sha-256 round-trip).",
+  "FileFormat": "zip of CSV (semicolon-separated)"
+}

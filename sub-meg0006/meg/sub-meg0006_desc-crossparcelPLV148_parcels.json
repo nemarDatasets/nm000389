@@ -1,0 +1,8 @@
+{
+  "Description": "Subject-specific cross-parcel PLV in simulated data, 148 parcels.",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_MEG.zip::S0006/Cross-Parcel PLV parc2009.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

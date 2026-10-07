@@ -1,0 +1,8 @@
+{
+  "Description": "Subject-specific parcel fidelity, 148 parcels (eyes-open/eyes-closed cohort).",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_MEG.zip::S0166/Parcel Fidelity parc2009.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

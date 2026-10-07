@@ -1,0 +1,8 @@
+{
+  "Description": "Contact-pair mask: retains only connections between contacts in cortical regions with a minimum distance of 2 cm and non-shared references (authors' README).",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_SEEG.zip::masks/S034.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

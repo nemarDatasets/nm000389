@@ -1,0 +1,9 @@
+{
+  "Description": "phase synchrony (wPLI) connectomes of this subject: one semicolon-separated CSV matrix per frequency (PS) or low:high frequency pair (CFC), each with a _surr.csv surrogate counterpart. CFC: rows = low-frequency parcel, columns = high-frequency parcel, local CFC on the diagonal.",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/MEG connectome PS (wPLI).zip"
+  ],
+  "SourceMembersPrefix": "S0039",
+  "Repackaging": "Members of the original zip whose name carries this subject code, copied with identical names, timestamps and bytes into a new zip (exact sha-256 round-trip).",
+  "FileFormat": "zip of CSV (semicolon-separated)"
+}

@@ -1,0 +1,8 @@
+{
+  "Description": "Euclidean distances between pairs of contacts.",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_SEEG.zip::distances/S008.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

@@ -1,0 +1,39 @@
+{
+  "participant_id": {
+    "Description": "sub-seegNNN = SEEG patient with release code SNNN; sub-megNNNN = MEG participant with release code SNNNN."
+  },
+  "source_code": {
+    "Description": "Subject code used in the original Dryad release (CSV file names / folder names)."
+  },
+  "cohort": {
+    "Description": "Recording modality / cohort.",
+    "Levels": {
+      "SEEG": "drug-resistant focal epilepsy patient, Niguarda Hospital, Milan (eyes-closed resting state)",
+      "MEG": "healthy participant, BioMag Laboratory, Helsinki"
+    }
+  },
+  "meg_main_cohort": {
+    "Description": "MEG participant of the main eyes-open resting-state cohort (200-parcel connectomes).",
+    "Levels": {
+      "yes": "yes",
+      "no": "no",
+      "n/a": "SEEG participant"
+    }
+  },
+  "meg_eoec_cohort": {
+    "Description": "MEG participant of the second, eyes-open/eyes-closed cohort (148-parcel connectomes, S8 Fig).",
+    "Levels": {
+      "yes": "yes",
+      "no": "no",
+      "n/a": "SEEG participant"
+    }
+  },
+  "neuropsychology": {
+    "Description": "Row present in phenotype/neuropsychology.tsv.",
+    "Levels": {
+      "yes": "yes",
+      "no": "no",
+      "n/a": "SEEG participant"
+    }
+  }
+}

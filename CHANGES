@@ -1,0 +1,4 @@
+1.0.0 2026-10-07
+  - Derivative (processed-data) BIDS repackaging of Dryad doi:10.5061/dryad.0k86k80 (version 5) for NEMAR.
+  - All 17 original files byte-for-byte under sourcedata/dryad-0k86k80/.
+  - Connectome zips split per subject; supporting and plot CSVs extracted; neuropsychology as phenotype TSV.

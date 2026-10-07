@@ -1,0 +1,8 @@
+{
+  "Description": "Subject-specific Euclidean distances between the centres of the 200 parcels.",
+  "Sources": [
+    "bids::sourcedata/dryad-0k86k80/Supporting_Files_MEG.zip::S0008/Parcel Distances parc2009_200.csv"
+  ],
+  "Repackaging": "Extracted verbatim (bytes unchanged).",
+  "FileFormat": "CSV (semicolon-separated)"
+}

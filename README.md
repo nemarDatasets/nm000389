@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000389-blue)](https://doi.org/10.82901/nemar.nm000389)
+
 # Genuine cross-frequency coupling networks in human resting-state electrophysiological recordings (Siebenhühner et al., 2020): SEEG and MEG connectomes (derivative)
 
 **This is a processed-data (derivative) dataset.** It repackages the authors' public Dryad release

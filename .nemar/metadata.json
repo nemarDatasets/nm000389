@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Siebenhuhner-2020-genuine-10.1371/journal.pbio.3000685",
+  "title": "Genuine cross-frequency coupling networks in human resting-state electrophysiological recordings (Siebenhuehner et al., 2020): SEEG and MEG connectomes (derivative)",
   "description": "This derivative dataset repackages the public Dryad release accompanying Siebenhühner et al. (2020), providing per-subject connectivity matrices computed from resting-state stereo-EEG (59 epilepsy patients) and MEG (19 healthy participants, plus a 10-participant eyes-open/eyes-closed cohort). Measures include phase synchrony (PLV, wPLI), cross-frequency phase synchrony, phase-amplitude coupling and amplitude-envelope coupling, each with surrogate values, together with supporting files, neuropsychological scores and plotted figure values. Raw recordings are not included because of data privacy regulations.",
   "methods_description": "SEEG: 10-min eyes-closed resting state, 1000 Hz, contacts localised with CT and assigned to the 148-parcel Destrieux atlas, closest-white-matter referencing, exclusion of epileptic-zone and subcortical contacts and of interictal-event windows, Morlet wavelets (m=5) at 49 frequencies from 1.2 to 315 Hz. MEG: 10-min eyes-open resting state recorded with a 306-channel Elekta/MEGIN system, tSSS and ICA cleaning, MNE source modelling collapsed to 200 split-Destrieux parcels with fidelity weighting, Morlet filter bank from 1.1 to 315 Hz.",
   "license": "CC0-1.0",
@@ -128,5 +128,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "7a9d644d1f660b5a2ad18c8cbf3cee82df8e02b8c35915bf061932b04d8a7d99"
+  "source_hash": "c89030ecf54e939241cd309b7628b8d8822350c682a886bb06544b40436e603a"
 }

@@ -1,3 +1,6 @@
+1.0.2 2026-10-16
+  - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
+
 1.0.0 2026-10-07
   - Derivative (processed-data) BIDS repackaging of Dryad doi:10.5061/dryad.0k86k80 (version 5) for NEMAR.
   - All 17 original files byte-for-byte under sourcedata/dryad-0k86k80/.

@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Genuine cross-frequency coupling networks in human resting-state electrophysiological recordings (Siebenhuehner et al., 2020): SEEG and MEG connectomes (derivative)",
-  "description": "This derivative dataset repackages the public Dryad release accompanying Siebenhühner et al. (2020). It provides per-subject connectivity matrices computed from 10-minute resting-state SEEG (59 epilepsy patients) and MEG (19 healthy participants, plus a 10-participant eyes-open/eyes-closed cohort) recordings. The matrices cover phase synchrony (PLV, wPLI), cross-frequency phase synchrony, phase-amplitude coupling and amplitude-envelope coupling, each with surrogate values. Supporting files, neuropsychological scores and figure plot data are also included. Raw recordings are not included.",
-  "methods_description": "SEEG was recorded for 10 minutes at 1000 Hz, eyes closed, with a 192-channel system. Contacts were localised to the Destrieux atlas and referenced to the closest white matter. MEG was recorded for 10 minutes, eyes open, with a 306-channel Elekta/MEGIN system, then processed with tSSS and ICA and source-modelled to 200 parcels with fidelity weighting. Morlet wavelet decomposition (m=5) covered about 1-315 Hz, and coupling matrices were computed per subject and frequency (pair) with surrogate counterparts.",
+  "title": "Siebenhuhner-2020-genuine-10.1371/journal.pbio.3000685",
+  "description": "This derivative dataset repackages the public Dryad release accompanying Siebenhühner et al. (2020), providing per-subject connectivity matrices computed from resting-state stereo-EEG (59 epilepsy patients) and MEG (19 healthy participants, plus a 10-participant eyes-open/eyes-closed cohort). Measures include phase synchrony (PLV, wPLI), cross-frequency phase synchrony, phase-amplitude coupling and amplitude-envelope coupling, each with surrogate values, together with supporting files, neuropsychological scores and plotted figure values. Raw recordings are not included because of data privacy regulations.",
+  "methods_description": "SEEG: 10-min eyes-closed resting state, 1000 Hz, contacts localised with CT and assigned to the 148-parcel Destrieux atlas, closest-white-matter referencing, exclusion of epileptic-zone and subcortical contacts and of interictal-event windows, Morlet wavelets (m=5) at 49 frequencies from 1.2 to 315 Hz. MEG: 10-min eyes-open resting state recorded with a 306-channel Elekta/MEGIN system, tSSS and ICA cleaning, MNE source modelling collapsed to 200 split-Destrieux parcels with fidelity weighting, Morlet filter bank from 1.1 to 315 Hz.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -36,12 +36,10 @@
   },
   "keywords": [
     {
-      "term": "Stereo-EEG"
+      "term": "stereo-EEG"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "term": "MEG"
     },
     {
       "term": "resting state"
@@ -130,5 +128,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "72d2b711e114e968d9dc812cd46773d0260543f0e59a86e668ef3df6cd7f8ff7"
+  "source_hash": "7a9d644d1f660b5a2ad18c8cbf3cee82df8e02b8c35915bf061932b04d8a7d99"
 }
